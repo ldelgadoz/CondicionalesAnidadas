@@ -37,7 +37,23 @@ public class CondicionesAnidadas {
             System.out.println("Tiene una calificación suspensa");
         }
 
+        /*OPERADORES LOGICOS:
+        &&, || y !
+        */
         
+        int n2;
+        System.out.println("Introduce el segundo numero: ");
+        n2 = datos1.nextInt();
+        
+        //iniciamos condiciones con los operadores logicos
+        
+        //comprobamos que el valor es valido, tiene que ser distinto de 0 y mayor que 0
+        if (n2 >0 && n2 !=0){
+            System.out.println("El numero es valido");
+        }
+        else{
+            System.out.println("El numero no es valido");
+        }
     }
 }
 
