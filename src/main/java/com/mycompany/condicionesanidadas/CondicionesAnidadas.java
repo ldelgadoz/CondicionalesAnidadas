@@ -54,6 +54,20 @@ public class CondicionesAnidadas {
         else{
             System.out.println("El numero no es valido");
         }
+        // ||
+        if (n2 >0 || n2 !=0){
+            System.out.println("El numero es valido");
+        }
+        
+        //!
+        boolean cansado;
+        cansado = false;
+        
+        if (!cansado){
+            System.out.println("Es verdadero");
+        }
+            
+        
     }
 }
 
